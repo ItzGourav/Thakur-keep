@@ -1,0 +1,52 @@
+.create_note{
+    display: flex;
+    min-width: 30vw;
+    min-height: 20vh;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px grey ;
+    position: relative;
+}
+
+.main_note{
+   
+    display: flex;
+    justify-content: center;
+}
+
+form input, textarea{
+    border: none;
+    outline: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form textarea{
+    max-width: 30vw;
+}
+
+form{
+    margin: 20px 10px;
+}
+
+button{
+    box-shadow: 2px 2px 7px #E6D1F2;
+    position: absolute;
+    bottom:-11%;
+    right: 4%;
+    height: 50px;
+    border: 1px solid grey;
+    width: 50px;
+    background-color: #E6D1F2;
+    /* font-style: 700; */
+    font-size: 40px;
+    border-radius: 50% ;
+    user-select: none;
+}
+
+button:hover{
+    background-color: #B19CD8;
+}
+
+button:active{
+    background-color: #E6D1F2;
+}
