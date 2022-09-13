@@ -4,8 +4,7 @@ import "../css/createnote.css";
 
 const CreateNote = (props) => {
   const [Hide, setHide] = useState(false);
-
-
+  
   const [note, setNote] = useState({
     title: "",
     content: ""
